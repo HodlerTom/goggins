@@ -1,12 +1,14 @@
 body {
-    position: relative;
-    min-height: 100vh;
-    font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: bold;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    color: #111; /* Improve text readability */
+    height: 100vh; /* Take full screen height */
+    display: flex; /* Enable Flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin: 0; /* Remove default margin */
+    font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, 'Open Sans', sans-serif;
+    background-image: url("your-image.jpg");
+    background-size: cover; /* Ensure background covers full area */
+    background-position: center; /* Center the background image */
+    filter: grayscale(100%); /* Make background black and white */
 }
 
 body::before {

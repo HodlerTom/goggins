@@ -8,7 +8,6 @@ body {
     background-image: url("your-image.jpg");
     background-size: cover; /* Ensure background covers full area */
     background-position: center; /* Center the background image */
-    filter: grayscale(100%); /* Make background black and white */
 }
 
 body::before {

@@ -91,4 +91,5 @@ p {
     margin: 40 auto;    /* This centers the content horizontally */
     padding: 20px;     /* Add some padding to give space around content */
     background-color: none; /* Optional: you can add background for the container */
+    text-align: center;
 }
